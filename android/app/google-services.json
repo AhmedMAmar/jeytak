@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "53774712832",
+    "project_id": "jeytak-6b1f3",
+    "storage_bucket": "jeytak-6b1f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53774712832:android:d0a65d1a9436fa12a658e5",
+        "android_client_info": {
+          "package_name": "com.example.jeytak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "53774712832-6pvu931c345lkkfa003jr4es4oq9pa6d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIPPBSNaXbhRjBl1-Hn3IzyNRZPVRxxVg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "53774712832-6pvu931c345lkkfa003jr4es4oq9pa6d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
