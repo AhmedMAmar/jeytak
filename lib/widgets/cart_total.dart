@@ -61,8 +61,8 @@ class CartTotal extends StatelessWidget {
   }
 
   _makePostRequest() async {
-    final url =
-        Uri.parse('https://backend-server-flutter-app.herokuapp.com/orders/');
+    final url = Uri.parse(
+        'https://backend-server-flutter-app.herokuapp.com/api/orders/');
     final headers = {"Content-type": "application/json"};
     // ignore: prefer_const_declarations
     final json =

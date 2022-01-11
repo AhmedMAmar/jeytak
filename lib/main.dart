@@ -2,15 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:jeytak/constants.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:jeytak/screens/Signup/signup_screen.dart';
-import 'package:jeytak/screens/Welcome/welcome_screen.dart';
-import 'package:jeytak/screens/home_page.dart';
+import 'package:jeytak/screens/auth/login.dart';
 
 Future<void> main() async {
   try {
     WidgetsFlutterBinding.ensureInitialized();
     await Firebase.initializeApp();
-    print('ok');
   } on Exception catch (e) {
     print(e);
   }
@@ -30,7 +27,7 @@ class MyApp extends StatelessWidget {
         primaryColor: kPrimaryColor,
         scaffoldBackgroundColor: Colors.white,
       ),
-      home: HomePage(),
+      home: LoginPage(),
     );
   }
 }
