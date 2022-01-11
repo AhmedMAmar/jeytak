@@ -48,16 +48,16 @@ class _LoginPageState extends State<LoginPage> {
               width: 200.0,
               child: Stack(
                 children: [
-                  Text('Bienvenue',
-                      style: TextStyle(fontFamily: 'Trueno', fontSize: 60.0)),
+                  /*Text('Bienvenue',
+                      style: TextStyle(fontFamily: 'Trueno', fontSize: 60.0)),*/
                   Positioned(
                       top: 50.0,
                       child: Text('Jeytak',
                           style:
                               TextStyle(fontFamily: 'Trueno', fontSize: 60.0))),
                   Positioned(
-                      top: 97.0,
-                      left: 175.0,
+                      top: 100.0,
+                      left: 205.0,
                       child: Container(
                           height: 10.0,
                           width: 10.0,
