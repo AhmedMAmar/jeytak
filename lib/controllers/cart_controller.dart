@@ -17,7 +17,7 @@ class CartController extends GetxController {
       "Produit Ajouter",
       "vous avez ajouter ${product.name} dans votre panier",
       snackPosition: SnackPosition.TOP,
-      duration: Duration(seconds: 4),
+      duration: Duration(seconds: 2),
     );
   }
 

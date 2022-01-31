@@ -50,7 +50,16 @@ class RestaurantsPage extends StatelessWidget {
                             direction: Axis.horizontal,
                             children: [
                               GestureDetector(
-                                onTap: () {},
+                                onTap: () {
+                                  Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (context) {
+                                        return CatalogScreen();
+                                      },
+                                    ),
+                                  );
+                                },
                                 child: Container(
                                   margin:
                                       const EdgeInsets.symmetric(vertical: 20),
@@ -86,7 +95,16 @@ class RestaurantsPage extends StatelessWidget {
                               ),
                               //addVerticalSpace(10),
                               GestureDetector(
-                                onTap: () {},
+                                onTap: () {
+                                  Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (context) {
+                                        return CatalogScreen();
+                                      },
+                                    ),
+                                  );
+                                },
                                 child: Container(
                                   margin:
                                       const EdgeInsets.symmetric(vertical: 20),
@@ -165,7 +183,16 @@ class RestaurantsPage extends StatelessWidget {
                                 ),
                               ),
                               GestureDetector(
-                                onTap: () {},
+                                onTap: () {
+                                  Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (context) {
+                                        return CatalogScreen();
+                                      },
+                                    ),
+                                  );
+                                },
                                 child: Container(
                                   margin:
                                       const EdgeInsets.symmetric(vertical: 20),

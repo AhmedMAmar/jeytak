@@ -2,8 +2,7 @@ import 'dart:math';
 
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:jeytak/screens/auth/home.dart';
-import 'package:jeytak/screens/super_page.dart';
+import 'package:jeytak/screens/home_page.dart';
 //import 'package:jeytak_3/screens/login.dart';
 
 class AuthService {
@@ -13,7 +12,7 @@ class AuthService {
         .signInWithEmailAndPassword(email: email, password: password)
         .then((val) {
       Navigator.of(context)
-          .push(MaterialPageRoute(builder: (context) => SuperPage()));
+          .push(MaterialPageRoute(builder: (context) => HomePage()));
     }).catchError((e) {
       print(e);
     });
@@ -27,7 +26,7 @@ class AuthService {
         .createUserWithEmailAndPassword(email: email, password: password)
         .then((value) {
       Navigator.of(context)
-          .push(MaterialPageRoute(builder: (context) => SuperPage()));
+          .push(MaterialPageRoute(builder: (context) => HomePage()));
     }).catchError((e) {
       print(e);
     });

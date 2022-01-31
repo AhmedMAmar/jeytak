@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:jeytak/constants.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:jeytak/screens/auth/login.dart';
+import 'package:jeytak/screens/home_page.dart';
 
 Future<void> main() async {
   try {

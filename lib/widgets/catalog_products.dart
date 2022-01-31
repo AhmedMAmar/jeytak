@@ -37,14 +37,18 @@ class CatalogProductCard extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          CircleAvatar(
-            radius: 48,
-            backgroundImage: NetworkImage(
-              Product.products[index].imageUrl,
+          Flexible(
+            flex: 1,
+            child: CircleAvatar(
+              radius: 48,
+              backgroundImage: NetworkImage(
+                Product.products[index].imageUrl,
+              ),
             ),
           ),
           SizedBox(width: 20),
-          Expanded(
+          Flexible(
+            flex: 2,
             child: Text(
               Product.products[index].name,
               style: TextStyle(
@@ -53,7 +57,7 @@ class CatalogProductCard extends StatelessWidget {
               ),
             ),
           ),
-          Expanded(child: Text('${Product.products[index].price}')),
+          Flexible(flex: 1, child: Text('${Product.products[index].price}')),
           ElevatedButton.icon(
             label: Text('ajouter'),
             onPressed: () {
